@@ -8,7 +8,7 @@ Shared Canvas manifests serve to display structural and descriptive metadata alo
 For the specifications see the IIIF Image API 1.1 (http://iiif.io/image-api/1.1), IIIF Metadata API 1.0 (http://iiif.io/metadata-api/1.0) and the draft version of IIIF Presentation API 2.0 Draft (http://iiif.io/api/presentation/2.0) and for general information see the International Image Interoperability Framework website (http://iiif.io).
 
 
-In a first step two transformations for transcriptions to Shared Canvas (a using facsimile module, b using sourceDesc)
+In a first step two transformations for transcriptions to Shared Canvas (a using facsimile module, b using sourceDoc)
 and an XSL that
 automatically adds facsimile surfaces and zones as estimates to a TEI file with a transcription, calculating the position of each line based on the zone of a writing area, are made available.
 
