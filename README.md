@@ -5,10 +5,12 @@ The observatory focusses on documents written in the main languages of culture i
 
 Shared Canvas manifests serve to display structural and descriptive metadata alongside with the images and transcriptions of a text bearing object in a viewer like e.g. Mirador (developed by Stanford University) see one implementation at http://demos.biblissima-condorcet.fr/mirador.
 
-For the specifications see the "IIIF Image API 1.1" on http://www-sul.stanford.edu/iiif/image-api/1.1/ , the "IIIF Metadata API 1.0" on http://www.shared-canvas.org/datamodel/iiif/metadata-api.html and the draft version of "IIIF Presentation API 2.0 Draft" on http://iiif.io/api/presentation/2.0/.
+For the specifications see the IIIF Image API 1.1 (http://iiif.io/image-api/1.1), IIIF Metadata API 1.0 (http://iiif.io/metadata-api/1.0) and the draft version of IIIF Presentation API 2.0 Draft (http://iiif.io/api/presentation/2.0) and for general information see the International Image Interoperability Framework website (http://iiif.io).
 
 
 In a first step two transformations for transcriptions to Shared Canvas (a using facsimile module, b using sourceDesc)
 and an XSL that
 automatically adds facsimile surfaces and zones as estimates to a TEI file with a transcription, calculating the position of each line based on the zone of a writing area, are made available.
+
+
 
