@@ -10,5 +10,5 @@ For the specifications see the "IIIF Image API 1.1" on http://www-sul.stanford.e
 
 In a first step two transformations for transcriptions to Shared Canvas (a using facsimile module, b using sourceDesc)
 and an XSL that
-automatically adds facsimile surfaces and zones as estimates to a TEI file with a transcription, taking the position of a writing area and calculating the zone of each line, are made available.
+automatically adds facsimile surfaces and zones as estimates to a TEI file with a transcription, calculating the position of each line based on the zone of a writing area, are made available.
 
