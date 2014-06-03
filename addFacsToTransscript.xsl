@@ -18,8 +18,8 @@
     <xsl:param name="imageBasePath">http://server.where.the.images.are/with/base/identifier</xsl:param>
     
     <xsl:template match="/TEI">
-        <TEI >
-            <!-- copy everything and add only facs attributes to l elements -->
+        <TEI>
+            <!-- copy everything and add only facs attributes to l and pb elements -->
             <xsl:apply-templates select="@*|node()"/>
             
             <!-- now automatically add facsimile -->
