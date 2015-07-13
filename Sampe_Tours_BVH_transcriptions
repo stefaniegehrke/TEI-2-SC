@@ -1,0 +1,386 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ore="http://www.openarchives.org/ore/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:exif="http://www.w3.org/2003/12/exif/ns#"
+    xmlns:sc="http://http://www.shared-canvas.org/ns/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="http://xmlns.com/foaf/0.1">
+
+    <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
+
+    <!-- Stefanie Gehrke, Biblissima, 2015-01-01 -->
+
+  
+    <!-- Add correct path for project here! -->
+    <xsl:param name="basePath">
+        <xsl:text>./</xsl:text>
+    </xsl:param>
+
+    <!-- type of transscript embedding xpath or transcription -->
+   <!-- <xsl:param name="transcription">
+        xpath
+    </xsl:param>-->
+    <xsl:param name="transcription">
+        transcription
+    </xsl:param>
+   
+    <!-- predefined appoximate text surfaces -->
+    <xsl:param name="r_x">100</xsl:param>
+    <xsl:param name="v_x">70</xsl:param>
+    <xsl:param name="y">60</xsl:param>
+    <xsl:param name="w">350</xsl:param>
+    <xsl:param name="h">600</xsl:param>
+   
+
+    <!-- set hosts, paths, identifier, etc-->
+    <xsl:param name="scheme_host">http://demos.biblissima-condorcet.fr/</xsl:param>
+    <!-- prefix in image-id -->
+    <xsl:param name="prefix">BVH/</xsl:param>
+    <xsl:param name="fullidentifier">
+        <xsl:value-of select="substring-before(/tei:TEI/@xml:id,'_tei')"/>
+    </xsl:param>
+    <xsl:param name="output_dir">
+        <xsl:value-of select="substring-before(document-uri(/),'_tei.xml')"/>
+    </xsl:param>
+    <xsl:param name="identifier">
+        <xsl:value-of select="tei:TEI//tei:sourceDesc/@n"/>
+    </xsl:param>
+
+    <xsl:param name="scBaseURI"><xsl:value-of select="$scheme_host"/>iiif/metadata/<xsl:value-of
+            select="$prefix"/><xsl:value-of select="$fullidentifier"/>/</xsl:param>
+    <!-- change image id here -->
+            <xsl:param name="imageBaseURI">http://demos.biblissima-condorcet.fr/iiif/image/<xsl:value-of
+            select="$prefix"/><xsl:value-of select="$fullidentifier"/>/</xsl:param>
+    <!-- /IIIF/ ? -->
+    <xsl:template match="/">
+        <!-- Manifest -->
+        <!-- result next to TEI, otherwise use outputdir as in example below -->
+        <xsl:variable name="outputDate">
+            <xsl:value-of select="current-date()"/>
+        </xsl:variable>
+        <xsl:variable name="outputFile"><xsl:value-of select="$output_dir"
+                />/demo_manifest_complete-<xsl:value-of select="substring-before($outputDate,'+')"
+            />_<xsl:value-of select="normalize-space($transcription)"/>.json</xsl:variable>
+        <!-- e.g. result in parallel directory  (paramter output_dir from top-->
+        <!--                <xsl:variable name="outputFile"><xsl:value-of select="$output_dir"></xsl:value-of>0<xsl:value-of select="$refnum_identifier"/>_demo_manifest_complete.json</xsl:variable>
+-->
+        <xsl:result-document href="{$outputFile}" method="text" encoding="UTF-8" indent="no"> {
+            "@context":"http://www.shared-canvas.org/ns/context.json",
+            "@id":"<xsl:value-of select="$scBaseURI"/>manifest.json",
+            "@type":"sc:Manifest",
+           
+            <!-- Description Metadata --> "label":"<xsl:value-of
+                select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement"
+                /><xsl:text>, </xsl:text><xsl:value-of
+                    select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:institution"
+                /><xsl:text>, </xsl:text><xsl:value-of
+                    select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno"/>",
+           
+            "metadata":[
+            {"label":"Repository",
+            "value":"<xsl:value-of
+                    select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:institution"/><xsl:text> (</xsl:text><xsl:value-of
+                select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement"
+                /><xsl:text>)</xsl:text>"},
+<!-- Important : not line breaks in Shelfmark, or any of the JSON  values -->
+            {"label":"Shelfmark",
+            "value":"<xsl:value-of select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement"/><xsl:text>, </xsl:text><xsl:choose><xsl:when test="contains(tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:institution,'Bibliothèque Municipale')"><xsl:text>BM</xsl:text></xsl:when><xsl:otherwise><xsl:value-of
+                select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:institution"/></xsl:otherwise></xsl:choose><xsl:text>, </xsl:text><xsl:value-of select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno"/>"},
+            <xsl:variable
+                name="title"><xsl:value-of select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msContents//tei:title[@type='titre_court']"/>
+            </xsl:variable>
+            {"label":"Title",
+            "value":"<xsl:value-of
+                select="normalize-space($title)"/>"},
+            <xsl:variable name="textlang"><xsl:value-of select="tei:TEI/tei:text/@xml:lang"></xsl:value-of></xsl:variable>
+            {"label":"Language", "value":"<xsl:choose><xsl:when test="$textlang='frm'"><xsl:text>français</xsl:text></xsl:when><xsl:otherwise></xsl:otherwise></xsl:choose>"},
+
+           <!-- single author , code for multiple omitted here -->
+            <xsl:variable name="author"><xsl:value-of select="tei:TEI//tei:msDesc/tei:msContents//tei:monogr/tei:author/tei:persName"></xsl:value-of></xsl:variable>
+           
+            {"label":"Creator", "value": "<xsl:value-of
+                select="normalize-space($author)"/>"},
+          
+
+         <!-- multiple Contributor : “label” : “Contributor” , “value” : “TheValue” = publisher/persName/surname xsl:text, </xsl:text> publisherrole="libraire"/persName/forename (Lastname und Firstname) and than in brackets (@role)-->
+            <xsl:variable name="contributorList">
+                <xsl:variable name="contributors">
+                    <xsl:for-each select="//tei:publisher">
+                        <xsl:text>; -</xsl:text>
+                        <xsl:value-of select="./tei:persName/tei:surname"/>,<xsl:value-of select="./tei:persName/tei:forename"/><xsl:text> (</xsl:text><xsl:value-of select="@role"/><xsl:text>)</xsl:text>
+                    </xsl:for-each>
+
+                </xsl:variable>
+                <xsl:choose>
+                    <!-- multiple contributors -->
+                    <xsl:when test="contains(substring-after($contributors,'; -'),'; -')"> [
+                            "<xsl:value-of
+                            select="normalize-space(translate(substring-after($contributors,'; -'),'; -','&quot;,&quot;'))"
+                        />"] </xsl:when>
+                    <!-- one contributor -->
+                    <xsl:otherwise> "<xsl:value-of
+                            select="normalize-space(substring-after($contributors,'; -'))"/>"
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
+           
+            {"label":"Contributor", "value":<xsl:value-of
+                select="normalize-space($contributorList)"/>},
+
+
+
+            <!-- single or multiple places -->
+            <xsl:variable name="placeList">
+                <xsl:variable name="places">
+                    <xsl:for-each select="//tei:pubPlace">
+                        <xsl:text>; -</xsl:text>
+                        <xsl:value-of select="normalize-space(current())"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:choose>
+                    <!-- multiple places -->
+                    <xsl:when test="contains(substring-after($places,'; -'),'; -')"> [
+                        "<xsl:value-of
+                            select="normalize-space(translate(substring-after($places,'; -'),'; -','&quot;,&quot;'))"
+                        />"] </xsl:when>
+                    <!-- one place -->
+                    <xsl:otherwise> "<xsl:value-of
+                        select="normalize-space(substring-after($places,'; -'))"/>"
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
+           
+            {"label":"Place", "value":<xsl:value-of
+                select="normalize-space($placeList)"/>},
+           
+           
+             <!-- date : msContents/p/biblStruct/monogr/imprint/date - should only be one - no msPart ! -->
+
+            {"label":"Date", "value":"<xsl:value-of
+                select="normalize-space(//tei:msContents/tei:p/tei:biblStruct/tei:monogr/tei:imprint/tei:date)"/>"},
+
+            {"label":"Provider",
+            "value":"Les Bibliothèques Virtuelles Humanistes"},
+
+            {"label":"Disseminator", "value":"Biblissima"},
+           
+            {"label":"Source Images", "value":"http://www.bvh.univ-tours.fr/Consult/consult.asp?numtable=<xsl:value-of select="$fullidentifier"/>&amp;numfiche=<xsl:value-of
+                select="$identifier"/>&amp;mode=3&amp;offset=0&amp;ecran=0"},
+           
+            {"label":"Source Metadata", "value":"<xsl:text>http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=</xsl:text><xsl:value-of select="$identifier"/>"}
+           
+            ],
+           
+            "description":"",
+               
+            <!-- Rights Metadata -->
+           "license":"http://creativecommons.org/licenses/by-nc-nd/2.0/fr/",
+            "attribution": "<xsl:value-of select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:institution"/><xsl:text> (</xsl:text><xsl:value-of
+                    select="tei:TEI//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:settlement"
+                /><xsl:text>)</xsl:text>",
+
+    "service": {
+   "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+   "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+   "@id": "<xsl:value-of select="$scBaseURI"/>manifest.json"
+  },  
+                "seeAlso":
+       "http://www.bvh.univ-tours.fr/oai2/repositoryOAI.asp?verb=GetRecord&amp;metadataPrefix=oai_dc&amp;identifier=oai:bvh.univ-tours.fr:<xsl:value-of select="$identifier"/>",
+
+<!-- Normal Sequence -->
+                            
+             "sequences": [
+                    {
+                    "@context":"http://www.shared-canvas.org/ns/context.json",
+                    "@id":"<xsl:value-of select="$scBaseURI"/>sequences/normal",
+                    "@type":"sc:Sequence",
+                    "label":"Current Page Order",
+                  
+                   "canvases": [
+                <xsl:for-each select="//tei:text//tei:pb[@xml:id]">
+                
+                <xsl:variable name="I"><xsl:value-of select="position()"/></xsl:variable>
+                <xsl:variable name="N"><xsl:value-of select="@n"/></xsl:variable>
+                <xsl:variable name="pageLabel">
+                    <xsl:variable name="name">
+                        <xsl:value-of select="following-sibling::tei:fw[1]"/>
+                    </xsl:variable>
+                        <xsl:choose>
+                            <xsl:when test="contains($name,'[')">
+                                <xsl:value-of select="$name"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>[</xsl:text><xsl:value-of select="$name"/><xsl:text> r]</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                </xsl:variable>
+                <xsl:if test="string-length($N) &gt; 0">
+                {
+                "@id":"<xsl:value-of select="$scBaseURI"/>canvas/canvas-<xsl:value-of select="$N"/>",
+                "@type":"sc:Canvas",
+                "label":"<xsl:value-of select="$pageLabel"/>",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"<xsl:value-of select="$scBaseURI"/>annotation/anno-<xsl:value-of select="$N"/>",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                <!-- use for local pictures -->
+                "@id":"<xsl:value-of select="$imageBaseURI"/><xsl:value-of select="@xml:id"/>.jp2",
+                <!-- use for original pictures -->
+                <!--"@id":"<xsl:value-of select="@facs"/>",-->
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                <!-- use for local pictures -->
+                "@id":"<xsl:value-of select="$imageBaseURI"/><xsl:value-of select="@xml:id"/>.jp2",
+                <!-- use for original pictures -->
+                <!--"@id":"<xsl:value-of select="@facs"/>",-->
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"<xsl:value-of select="$scBaseURI"/>canvas/canvas-<xsl:value-of select="$N"/>"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"<xsl:value-of select="$scBaseURI"/>list/transcription_<xsl:value-of select="$N"/>.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]}<xsl:if test="position() != last()">,</xsl:if> 
+                </xsl:if>
+            </xsl:for-each>
+            ]
+            }
+                          
+ <!--        code for ranges omitted as they are not properly used at the current time  -->
+                    ]
+                    }
+                </xsl:result-document>
+        
+        
+        
+        <xsl:variable name="transcription">
+            <xsl:apply-templates select="//tei:text" />          
+        </xsl:variable>
+        
+        
+        <xsl:for-each select="//tei:text//tei:pb[@xml:id]">
+            <xsl:variable name="I"><xsl:value-of select="position()"/></xsl:variable>
+            <xsl:variable name="N"><xsl:value-of select="@n"/></xsl:variable>
+            <xsl:variable name="pageLabel">
+                <xsl:variable name="name">
+                    <xsl:value-of select="following-sibling::tei:fw[1]"/>
+                </xsl:variable>
+                <xsl:choose>
+                    <xsl:when test="contains($name,'[')">
+                        <xsl:value-of select="$name"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>[</xsl:text><xsl:value-of select="$name"/><xsl:text> r]</xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
+            
+            
+            
+            <xsl:variable name="outputTranscription"><xsl:value-of select="$output_dir"/>/list/transcription_<xsl:value-of select="$N"/>.json</xsl:variable>
+            <xsl:if test="string-length($N) &gt; 0">
+            <xsl:result-document href="{$outputTranscription}" method="text" encoding="UTF-8" indent="no">
+                <xsl:variable name="pageText">
+                    <xsl:variable name="localBreak"><xsl:text>--Pagebreak </xsl:text><xsl:value-of select="$N"/><xsl:text>--</xsl:text></xsl:variable>
+                    <xsl:value-of select="substring-before(substring-after($transcription,$localBreak),'--Pagebreak')"/>
+                </xsl:variable>
+                
+                <xsl:variable name="currentBaseURI"><xsl:value-of select="substring-after(base-uri(),'vers/')"/></xsl:variable>
+                <xsl:variable name="currentLanguage"><xsl:value-of select="//tei:profileDesc/tei:langUsage/tei:language/@ident"/></xsl:variable>  
+            {
+            "@context":"http://iiif.io/api/presentation/2/context.json",
+            "@id":"<xsl:value-of select="$scBaseURI"/>/list/transcription_<xsl:value-of select="$N"/>",
+            "@type":"sc:AnnotationList",  
+            "label":"List <xsl:value-of select="$N"/>",
+            "resources": [
+           
+        <!-- for each of these groups print the lines -->
+        <xsl:analyze-string select="$pageText" regex="--Linebreak--">
+            <xsl:non-matching-substring>
+                <xsl:if test="position() &gt; 1">
+                    <xsl:variable name="lineNumber"><xsl:value-of select="(position()-1) div 2"/></xsl:variable>
+                    <xsl:variable name="totalLineNumber"><xsl:value-of select="(last()-1) div 2"/></xsl:variable>
+                    <xsl:if test="position()!=3"> ,</xsl:if>   
+                    {"@id":"<xsl:value-of select="$scBaseURI"/>/annotation/line-<xsl:value-of select="$N"/>-<xsl:value-of select="$lineNumber"/>.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    <xsl:choose>
+                        <xsl:when test="$transcription = 'xpath'">
+                            "@id":"<xsl:value-of select="$scBaseURI"/>/<xsl:value-of select="$currentBaseURI"/><xsl:text>#xpointer(/TEI/text//lb[</xsl:text><xsl:value-of select="$lineNumber"/><xsl:text>])",</xsl:text>
+                            "@type":"dctypes:Text",
+                            "format":"text/xml"
+                        </xsl:when>
+                        <xsl:otherwise>
+                            "@type":"cnt:ContentAsText",
+                            <xsl:variable name="lineText"><xsl:value-of select="."/></xsl:variable>
+                            "chars":"<xsl:value-of select="normalize-space($lineText)"></xsl:value-of>",
+                            "format":"text/plain",
+                            "language":"<xsl:value-of select="$currentLanguage"/>"
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    },
+                    
+                    <!-- calculate position, only two arguments to each operation!! alternative numeric-... functions-->
+                    <xsl:variable name="lx"><xsl:choose>
+                        <xsl:when test="contains($pageLabel,'v')"><xsl:value-of select="$v_x"/></xsl:when>
+                        <xsl:otherwise><xsl:value-of select="$r_x"/></xsl:otherwise>
+                    </xsl:choose></xsl:variable>
+                    <xsl:variable name="y1"><xsl:value-of select="$h div $totalLineNumber"/></xsl:variable>
+                    <xsl:variable name="y2"><xsl:value-of select="floor($y1)"/></xsl:variable>
+                    <xsl:variable name="y3"><xsl:value-of select="$y2 * $lineNumber"/></xsl:variable>
+                    <xsl:variable name="y4"><xsl:value-of select="$y3+ $y"/></xsl:variable>
+                    <xsl:variable name="y5"><xsl:value-of select="floor($y4)"/></xsl:variable>
+                    <xsl:variable name="y6"><xsl:value-of select="$y5 - $y2"/></xsl:variable>
+                    "on":"<xsl:value-of select="$scBaseURI"/>canvas/canvas-<xsl:value-of select="$N"/>.json#xywh=<xsl:value-of select="($lx)"/>,<xsl:value-of select="($y6)"/>,<xsl:value-of select="($w)"/>,<xsl:value-of select="($y2)"/>"
+                    
+                    }  
+                </xsl:if>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+           
+        ]
+        }
+            </xsl:result-document>
+            </xsl:if>
+        </xsl:for-each>
+      
+ 
+    </xsl:template>
+
+
+<!--  extra templates to generate transcriptions text  -->
+    <xsl:template match="text()">
+        <xsl:copy/>
+    </xsl:template>
+    <xsl:template match="*">
+        <xsl:apply-templates select="comment()|processing-instruction()|text()|*"/>
+    </xsl:template>
+    <xsl:template match="tei:pb[not(@xml:id)]|tei:fw|tei:del">
+        <!-- no text from these tags -->
+        <xsl:apply-templates select="comment()|processing-instruction()|*"/>
+    </xsl:template>   
+    <xsl:template match="tei:pb[@xml:id]">
+        <!-- insert special line -->
+        <xsl:text>--Pagebreak </xsl:text><xsl:value-of select="@n"/><xsl:text>--</xsl:text>
+        <xsl:apply-templates select="comment()|processing-instruction()|*"/>
+    </xsl:template>   
+    <xsl:template match="tei:lb">
+        <!-- mark lines in text for later use with analyze-string -->
+        <xsl:text>--Linebreak--</xsl:text>
+        <xsl:apply-templates select="comment()|processing-instruction()|*"/>
+    </xsl:template>
+</xsl:stylesheet>
