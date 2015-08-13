@@ -3,7 +3,24 @@
     version="2.0">
     <xsl:output indent="yes" method="xml"></xsl:output>
     
-    <!-- Stefanie Gehrke, 2014-30-05 -->
+    <!-- Stefanie Gehrke, Biblissima, 2014-30-05 -->
+    
+    <!-- License
+    This file is part of TEI-2-SC developped in the frame of the Biblissima project.
+    
+    TEI-2-SC is free software: you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    
+    TEI-2-SC is distributed in the hope that it will be useful, but WITHOUT
+    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+    FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+    for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with TEI-2-SC.  If not, see <http://www.gnu.org/licenses/>.
+-->
     <!-- Automatically add facsimile region from a given estimate on a per line basis  -->
     
     <!-- predefined appoximate text surfaces -->
