@@ -65,7 +65,7 @@
         <!--                <xsl:variable name="outputFile"><xsl:value-of select="$output_dir"></xsl:value-of>0<xsl:value-of select="$refnum_identifier"/>_demo_manifest_complete.json</xsl:variable>
 -->
         <xsl:result-document href="{$outputFile}" method="text" encoding="UTF-8" indent="no"> {
-            "@context":"http://www.shared-canvas.org/ns/context.json",
+            "@context":"http://iiif.io/api/presentation/2/context.json",
             "@id":"<xsl:value-of select="$scBaseURI"/>manifest.json",
             "@type":"sc:Manifest",
            
