@@ -12,6 +12,6 @@ In a first step two transformations for transcriptions to Shared Canvas (a using
 and an XSL that
 automatically adds facsimile surfaces and zones as estimates to a TEI file with a transcription, calculating the position of each line based on the zone of a writing area, are made available.
 
-In the frame of an internship at Biblissima (April – July 2015), Elena Koroleva created a demo including text and images (Absolutio cuiusdam quaestionis by Florus de Lyon, copied in BnF Latin 2859, see https://github.com/EKoroleva/TEI2JSON. Further information and a demo are available on http://demos.biblissima-condorcet.fr/florus/#absolutio.
+In the frame of an internship at Biblissima (April – July 2015), Elena Koroleva created a demo including text and images (Absolutio cuiusdam quaestionis by Florus de Lyon, copied in BnF Latin 2859), see https://github.com/EKoroleva/TEI2JSON. Further information and a demo are available on http://demos.biblissima-condorcet.fr/florus/#absolutio.
 
 
