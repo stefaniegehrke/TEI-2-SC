@@ -1,0 +1,147 @@
+  
+            {
+            "@context":"http://iiif.io/api/presentation/2/context.json",
+            "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//list/transcription_3",
+            "@type":"sc:AnnotationList",  
+            "label":"List 3",
+            "resources": [
+           
+        
+           
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-3-1.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"Cest A Jaques Colas",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3.json#xywh=100,60,350,75"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-3-2.5.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":".Spes mea deus.",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3.json#xywh=100,172,350,75"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-3-3.5.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3.json#xywh=100,247,350,75"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-3-4.5.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"Volume de 52 feuillets",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3.json#xywh=100,322,350,75"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-3-5.5.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"le 14 juin 1884",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3.json#xywh=100,397,350,75"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-3-6.5.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3.json#xywh=100,472,350,75"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-3-8.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"[tampon de la bibliothèque d’Orléans]",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3.json#xywh=100,585,350,75"
+                    
+                    }  
+                
+           
+        ]
+        }
+            
