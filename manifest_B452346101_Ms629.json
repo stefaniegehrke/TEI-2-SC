@@ -1,0 +1,4297 @@
+ {
+            "@context":"http://www.shared-canvas.org/ns/context.json",
+            "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/manifest.json",
+            "@type":"sc:Manifest",
+           
+             "label":"Orléans, Médiathèque, Ms629",
+           
+            "metadata":[
+            {"label":"Repository",
+            "value":"Médiathèque (Orléans)"},
+
+            {"label":"Shelfmark",
+            "value":"Orléans, Médiathèque, Ms629"},
+            
+            {"label":"Title",
+            "value":"Suputation nouvellement faicte de la valeur des monnoyes et abuz dicelles"},
+            
+            {"label":"Language", "value":"français"},
+
+           
+            
+           
+            {"label":"Creator", "value": "Colas Jacques"},
+          
+
+         
+            
+           
+            {"label":"Contributor", "value":""},
+
+
+
+            
+            
+           
+            {"label":"Place", "value":[ "Orléans","Paris"]},
+           
+           
+             
+
+            {"label":"Date", "value":"1557"},
+
+            {"label":"Provider",
+            "value":"Les Bibliothèques Virtuelles Humanistes"},
+
+            {"label":"Disseminator", "value":"Biblissima"},
+           
+            {"label":"Source Images", "value":"http://www.bvh.univ-tours.fr/Consult/consult.asp?numtable=B452346101_Ms629&numfiche=1105&mode=3&offset=0&ecran=0"},
+           
+            {"label":"Source Metadata", "value":"http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=1105"}
+           
+            ],
+           
+            "description":"",
+               
+            
+           "license":"http://creativecommons.org/licenses/by-nc-nd/2.0/fr/",
+            "attribution": "Médiathèque (Orléans)",
+
+    "service": {
+   "@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+   "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+   "@id": "http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/manifest.json"
+  },  
+                "seeAlso":
+       "http://www.bvh.univ-tours.fr/oai2/repositoryOAI.asp?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bvh.univ-tours.fr:1105",
+
+
+                            
+             "sequences": [
+                    {
+                    "@context":"http://www.shared-canvas.org/ns/context.json",
+                    "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/sequences/normal",
+                    "@type":"sc:Sequence",
+                    "label":"Current Page Order",
+                  
+                   "canvases": [
+                
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-1",
+                "@type":"sc:Canvas",
+                "label":"[i][page blanche]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-1",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0003.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0003.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-1"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_1.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-2",
+                "@type":"sc:Canvas",
+                "label":"[i v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-2",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0004.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0004.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-2"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_2.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3",
+                "@type":"sc:Canvas",
+                "label":"[ii]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-3",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0005.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0005.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-3"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_3.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-4",
+                "@type":"sc:Canvas",
+                "label":"[ii v][page blanche]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-4",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0006.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0006.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-4"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_4.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-5",
+                "@type":"sc:Canvas",
+                "label":"[1 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-5",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0007.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0007.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-5"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_5.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-6",
+                "@type":"sc:Canvas",
+                "label":"[1 v][page blanche]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-6",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0008.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0008.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-6"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_6.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-7",
+                "@type":"sc:Canvas",
+                "label":"[ r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-7",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0009.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0009.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-7"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_7.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-8",
+                "@type":"sc:Canvas",
+                "label":"[2 v][page blanche]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-8",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0010.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0010.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-8"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_8.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-9",
+                "@type":"sc:Canvas",
+                "label":"[3 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-9",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0011.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0011.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-9"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_9.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-10",
+                "@type":"sc:Canvas",
+                "label":"[3 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-10",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0012.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0012.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-10"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_10.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-11",
+                "@type":"sc:Canvas",
+                "label":"[4 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-11",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0013.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0013.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-11"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_11.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-12",
+                "@type":"sc:Canvas",
+                "label":"[4 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-12",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0014.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0014.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-12"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_12.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-13",
+                "@type":"sc:Canvas",
+                "label":"[5 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-13",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0015.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0015.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-13"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_13.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-14",
+                "@type":"sc:Canvas",
+                "label":"[5 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-14",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0016.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0016.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-14"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_14.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-15",
+                "@type":"sc:Canvas",
+                "label":"[6 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-15",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0017.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0017.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-15"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_15.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-16",
+                "@type":"sc:Canvas",
+                "label":"[6 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-16",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0018.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0018.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-16"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_16.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-17",
+                "@type":"sc:Canvas",
+                "label":"[7 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-17",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0019.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0019.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-17"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_17.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-18",
+                "@type":"sc:Canvas",
+                "label":"[7 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-18",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0020.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0020.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-18"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_18.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-19",
+                "@type":"sc:Canvas",
+                "label":"[8 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-19",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0021.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0021.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-19"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_19.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-20",
+                "@type":"sc:Canvas",
+                "label":"[8 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-20",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0022.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0022.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-20"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_20.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-21",
+                "@type":"sc:Canvas",
+                "label":"[9 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-21",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0023.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0023.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-21"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_21.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-22",
+                "@type":"sc:Canvas",
+                "label":"[9 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-22",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0024.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0024.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-22"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_22.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-23",
+                "@type":"sc:Canvas",
+                "label":"[10 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-23",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0025.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0025.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-23"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_23.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-24",
+                "@type":"sc:Canvas",
+                "label":"[10 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-24",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0026.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0026.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-24"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_24.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-25",
+                "@type":"sc:Canvas",
+                "label":"[11 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-25",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0027.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0027.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-25"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_25.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-26",
+                "@type":"sc:Canvas",
+                "label":"[11 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-26",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0028.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0028.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-26"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_26.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-27",
+                "@type":"sc:Canvas",
+                "label":"[12 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-27",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0029.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0029.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-27"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_27.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-28",
+                "@type":"sc:Canvas",
+                "label":"[12 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-28",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0030.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0030.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-28"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_28.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-29",
+                "@type":"sc:Canvas",
+                "label":"[13 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-29",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0031.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0031.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-29"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_29.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-30",
+                "@type":"sc:Canvas",
+                "label":"[13 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-30",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0032.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0032.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-30"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_30.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-31",
+                "@type":"sc:Canvas",
+                "label":"[14 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-31",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0033.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0033.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-31"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_31.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-32",
+                "@type":"sc:Canvas",
+                "label":"[14 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-32",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0034.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0034.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-32"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_32.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-33",
+                "@type":"sc:Canvas",
+                "label":"[15 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-33",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0035.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0035.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-33"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_33.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-34",
+                "@type":"sc:Canvas",
+                "label":"[15 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-34",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0036.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0036.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-34"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_34.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-35",
+                "@type":"sc:Canvas",
+                "label":"[16 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-35",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0037.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0037.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-35"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_35.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-36",
+                "@type":"sc:Canvas",
+                "label":"[16 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-36",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0038.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0038.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-36"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_36.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37",
+                "@type":"sc:Canvas",
+                "label":"[17 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-37",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0039.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0039.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_37.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-38",
+                "@type":"sc:Canvas",
+                "label":"[17 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-38",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0040.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0040.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-38"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_38.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-39",
+                "@type":"sc:Canvas",
+                "label":"[18 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-39",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0041.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0041.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-39"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_39.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-40",
+                "@type":"sc:Canvas",
+                "label":"[18 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-40",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0042.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0042.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-40"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_40.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-41",
+                "@type":"sc:Canvas",
+                "label":"[19 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-41",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0043.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0043.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-41"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_41.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-42",
+                "@type":"sc:Canvas",
+                "label":"[19 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-42",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0044.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0044.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-42"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_42.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-43",
+                "@type":"sc:Canvas",
+                "label":"[20 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-43",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0045.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0045.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-43"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_43.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-44",
+                "@type":"sc:Canvas",
+                "label":"[20 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-44",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0046.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0046.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-44"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_44.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-45",
+                "@type":"sc:Canvas",
+                "label":"[21 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-45",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0047.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0047.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-45"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_45.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-46",
+                "@type":"sc:Canvas",
+                "label":"[21 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-46",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0048.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0048.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-46"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_46.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-47",
+                "@type":"sc:Canvas",
+                "label":"[22 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-47",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0049.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0049.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-47"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_47.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-48",
+                "@type":"sc:Canvas",
+                "label":"[22 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-48",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0050.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0050.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-48"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_48.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-49",
+                "@type":"sc:Canvas",
+                "label":"[23 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-49",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0051.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0051.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-49"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_49.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-50",
+                "@type":"sc:Canvas",
+                "label":"[23 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-50",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0052.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0052.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-50"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_50.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-51",
+                "@type":"sc:Canvas",
+                "label":"[24 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-51",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0053.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0053.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-51"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_51.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-52",
+                "@type":"sc:Canvas",
+                "label":"[24 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-52",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0054.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0054.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-52"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_52.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-53",
+                "@type":"sc:Canvas",
+                "label":"[25 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-53",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0055.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0055.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-53"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_53.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-54",
+                "@type":"sc:Canvas",
+                "label":"[25 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-54",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0056.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0056.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-54"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_54.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-55",
+                "@type":"sc:Canvas",
+                "label":"[26 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-55",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0057.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0057.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-55"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_55.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-56",
+                "@type":"sc:Canvas",
+                "label":"[26 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-56",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0058.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0058.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-56"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_56.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-57",
+                "@type":"sc:Canvas",
+                "label":"[27 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-57",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0059.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0059.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-57"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_57.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-58",
+                "@type":"sc:Canvas",
+                "label":"[27 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-58",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0060.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0060.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-58"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_58.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-59",
+                "@type":"sc:Canvas",
+                "label":"[28 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-59",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0061.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0061.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-59"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_59.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-60",
+                "@type":"sc:Canvas",
+                "label":"[28 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-60",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0062.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0062.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-60"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_60.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-61",
+                "@type":"sc:Canvas",
+                "label":"[29 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-61",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0063.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0063.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-61"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_61.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-62",
+                "@type":"sc:Canvas",
+                "label":"[29 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-62",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0064.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0064.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-62"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_62.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-63",
+                "@type":"sc:Canvas",
+                "label":"[30 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-63",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0065.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0065.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-63"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_63.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-64",
+                "@type":"sc:Canvas",
+                "label":"[30 v] [page blanche]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-64",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0066.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0066.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-64"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_64.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-65",
+                "@type":"sc:Canvas",
+                "label":"[31 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-65",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0067.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0067.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-65"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_65.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-66",
+                "@type":"sc:Canvas",
+                "label":"[31 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-66",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0068.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0068.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-66"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_66.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-67",
+                "@type":"sc:Canvas",
+                "label":"[32 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-67",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0069.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0069.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-67"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_67.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-68",
+                "@type":"sc:Canvas",
+                "label":"[32 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-68",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0070.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0070.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-68"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_68.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-69",
+                "@type":"sc:Canvas",
+                "label":"[33 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-69",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0071.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0071.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-69"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_69.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-70",
+                "@type":"sc:Canvas",
+                "label":"[33 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-70",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0072.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0072.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-70"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_70.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-71",
+                "@type":"sc:Canvas",
+                "label":"[34 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-71",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0073.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0073.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-71"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_71.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-72",
+                "@type":"sc:Canvas",
+                "label":"[34 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-72",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0074.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0074.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-72"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_72.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-73",
+                "@type":"sc:Canvas",
+                "label":"[35 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-73",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0075.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0075.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-73"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_73.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-74",
+                "@type":"sc:Canvas",
+                "label":"[35 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-74",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0076.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0076.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-74"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_74.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-75",
+                "@type":"sc:Canvas",
+                "label":"[36 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-75",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0077.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0077.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-75"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_75.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-76",
+                "@type":"sc:Canvas",
+                "label":"[36 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-76",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0078.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0078.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-76"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_76.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-77",
+                "@type":"sc:Canvas",
+                "label":"[37 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-77",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0079.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0079.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-77"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_77.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-78",
+                "@type":"sc:Canvas",
+                "label":"[37 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-78",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0080.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0080.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-78"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_78.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-79",
+                "@type":"sc:Canvas",
+                "label":"[38 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-79",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0081.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0081.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-79"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_79.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-80",
+                "@type":"sc:Canvas",
+                "label":"[38 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-80",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0082.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0082.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-80"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_80.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-81",
+                "@type":"sc:Canvas",
+                "label":"[39 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-81",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0083.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0083.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-81"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_81.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-82",
+                "@type":"sc:Canvas",
+                "label":"[39 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-82",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0084.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0084.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-82"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_82.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-83",
+                "@type":"sc:Canvas",
+                "label":"[40 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-83",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0085.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0085.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-83"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_83.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-84",
+                "@type":"sc:Canvas",
+                "label":"[40 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-84",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0086.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0086.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-84"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_84.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-85",
+                "@type":"sc:Canvas",
+                "label":"[41 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-85",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0087.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0087.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-85"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_85.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-86",
+                "@type":"sc:Canvas",
+                "label":"[41 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-86",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0088.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0088.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-86"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_86.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-87",
+                "@type":"sc:Canvas",
+                "label":"[42 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-87",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0089.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0089.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-87"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_87.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-88",
+                "@type":"sc:Canvas",
+                "label":"[42 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-88",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0090.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0090.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-88"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_88.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-89",
+                "@type":"sc:Canvas",
+                "label":"[43 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-89",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0091.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0091.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-89"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_89.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-90",
+                "@type":"sc:Canvas",
+                "label":"[43 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-90",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0092.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0092.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-90"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_90.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-91",
+                "@type":"sc:Canvas",
+                "label":"[44 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-91",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0093.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0093.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-91"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_91.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-92",
+                "@type":"sc:Canvas",
+                "label":"[44 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-92",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0094.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0094.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-92"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_92.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-93",
+                "@type":"sc:Canvas",
+                "label":"[45 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-93",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0095.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0095.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-93"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_93.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-94",
+                "@type":"sc:Canvas",
+                "label":"[45v] [page blanche]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-94",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0096.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0096.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-94"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_94.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-95",
+                "@type":"sc:Canvas",
+                "label":"[46 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-95",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0097.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0097.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-95"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_95.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-96",
+                "@type":"sc:Canvas",
+                "label":"[46 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-96",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0098.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0098.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-96"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_96.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-97",
+                "@type":"sc:Canvas",
+                "label":"[47 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-97",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0099.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0099.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-97"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_97.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-98",
+                "@type":"sc:Canvas",
+                "label":"[47 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-98",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0100.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0100.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-98"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_98.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-99",
+                "@type":"sc:Canvas",
+                "label":"[48 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-99",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0101.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0101.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-99"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_99.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-100",
+                "@type":"sc:Canvas",
+                "label":"[48 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-100",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0102.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0102.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-100"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_100.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-101",
+                "@type":"sc:Canvas",
+                "label":"[49 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-101",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0103.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0103.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-101"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_101.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-102",
+                "@type":"sc:Canvas",
+                "label":"[49 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-102",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0104.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0104.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-102"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_102.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-103",
+                "@type":"sc:Canvas",
+                "label":"[50 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-103",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0105.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0105.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-103"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_103.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-104",
+                "@type":"sc:Canvas",
+                "label":"[50 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-104",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0106.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0106.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-104"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_104.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-105",
+                "@type":"sc:Canvas",
+                "label":"[51 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-105",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0107.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0107.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-105"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_105.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-106",
+                "@type":"sc:Canvas",
+                "label":"[51 v]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-106",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0108.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0108.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-106"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_106.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-107",
+                "@type":"sc:Canvas",
+                "label":"[52 r]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-107",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0109.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0109.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-107"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_107.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]},
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-108",
+                "@type":"sc:Canvas",
+                "label":"[52 v] [page blanche]",
+                "height":836,
+                "width":500,
+                "images":[
+                {
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/annotation/anno-108",
+                "@type":"oa:Annotation",
+                "motivation":"sc:painting",
+                "resource":
+                {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0110.jp2",
+                
+                
+                "format":"image/jp2",
+                "@type":"dctypes:Image",
+                "height":836,
+                "width":500,
+                "service": {
+                
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/image/BVH/B452346101_Ms629/B452346101_Ms629_0110.jp2",
+                
+                
+                "profile": "http://library.stanford.edu/iiif/image-api/1.1/conformance.html#level2"
+                }
+                },
+                "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-108"
+                }
+                ],
+                "otherContent": [
+                {
+                "@context":"http://iiif.io/api/presentation/2/context.json",
+                "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/list/transcription_108.json",
+                "@type":"sc:AnnotationList"                
+                    }      
+                    ]}
+            ]
+            }
+                          
+ 
+                    ]
+                    }
+                
