@@ -1,0 +1,299 @@
+  
+            {
+            "@context":"http://iiif.io/api/presentation/2/context.json",
+            "@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//list/transcription_37",
+            "@type":"sc:AnnotationList",  
+            "label":"List 37",
+            "resources": [
+           
+        
+           
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-1.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"Le pris que lesdictz estrangiers",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,60,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-2.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"vendent le marc dor fin en",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,100,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-3.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"ouvraige dangelotz en france.",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,140,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-4.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"Ung angelot dangleterre",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,180,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-5.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"du poix de iiii deniers dor a Il se trouvent",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,220,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-6.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"des angelotz",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,260,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-7.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"a 23 karatz 3/4 lesquelz",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,300,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-8.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"sont fort rares",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,340,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-9.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"pour le jour dhuy",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,380,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-10.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"xxiii karatz .deniers. Contient dor",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,420,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-11.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"fin / iii deniers xxii grains Si lor fin",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,460,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-12.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"contenu audict angelot vault",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,500,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-13.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"en oeuvre iiii livres tournoiz qui est le",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,540,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-14.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"cours de langelot",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,580,350,40"
+                    
+                    }  
+                 ,   
+                    {"@id":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629//annotation/line-37-15.json",
+                    "@type":"oa:Annotation",
+                    "motivation":"sc:painting",
+                    "resource":{
+                    
+                            "@type":"cnt:ContentAsText",
+                            
+                            "chars":"Le marc dor fin mictz en",
+                            "format":"text/plain",
+                            "language":"frm"
+                        
+                    },
+                    
+                    
+                    
+                    "on":"http://demos.biblissima-condorcet.fr/iiif/metadata/BVH/B452346101_Ms629/canvas/canvas-37.json#xywh=100,620,350,40"
+                    
+                    }  
+                
+           
+        ]
+        }
+            
